@@ -17,22 +17,22 @@ function App() {
       <Header />
       <BrowserRouter>
       <Routes>
-        <Route path="/" element= {<Home />} />
+        <Route path="./" element= {<Home />} />
       </Routes>
       <Routes>
-        <Route path="/about" element= {<About />} />
+        <Route path="./about" element= {<About />} />
       </Routes>
       <Routes>
-        <Route path="/contact" element= {<Contact />} />
+        <Route path="./contact" element= {<Contact />} />
       </Routes>
       <Routes>
-        <Route path="/project" element= {<Project />} />
+        <Route path="./project" element= {<Project />} />
       </Routes>
       <Routes>
-        <Route path="/fullstack" element= {<FullStack />} />
+        <Route path="./fullstack" element= {<FullStack />} />
       </Routes>
       <Routes>
-        <Route path="/dl" element= {<DeepLearning />} />
+        <Route path="./dl" element= {<DeepLearning />} />
       </Routes>
       </BrowserRouter>
     </div>
