@@ -14,27 +14,12 @@ import { DeepLearning} from './comp/dl';
 function App() {
   return (
     <div>
-      <Header />
-      <BrowserRouter>
-      <Routes>
-        <Route path="./" element= {<Home />} />
-      </Routes>
-      <Routes>
-        <Route path="./about" element= {<About />} />
-      </Routes>
-      <Routes>
-        <Route path="./contact" element= {<Contact />} />
-      </Routes>
-      <Routes>
-        <Route path="./project" element= {<Project />} />
-      </Routes>
-      <Routes>
-        <Route path="./fullstack" element= {<FullStack />} />
-      </Routes>
-      <Routes>
-        <Route path="./dl" element= {<DeepLearning />} />
-      </Routes>
-      </BrowserRouter>
+      <Home />
+      <About />
+      <Contact />
+      <Project />
+      <FullStack />
+      <DeepLearning />
     </div>
   );
 }
