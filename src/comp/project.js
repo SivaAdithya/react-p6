@@ -14,7 +14,7 @@ export function Project()
                     <h5 class="card-title">Deep Learning Projects</h5>
                     <img class="card-img-top img_card" src={dl} alt="Card image cap"></img>
                     <p class="card-text my-2">Click on the button present below to have an overivew on the prominent deep learning projects I have worked on along with a brief explanation about each.</p>
-                    <a href="http://localhost:3000/dl" class="btn btn-primary">Press</a>
+                    <a href="./dl" class="btn btn-primary">Press</a>
                 </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@ export function Project()
                     <h5 class="card-title">MERN Stack Projects</h5>
                     <img class="card-img-top img_card" src={img1} alt="Card image cap"></img>
                     <p class="card-text my-2">Click on the button present below to have an overivew on the prominent projects related to full stack I have worked on along with a brief explanation about each. </p>
-                    <a href="http://localhost:3000/fullstack" class="btn btn-primary">Press</a>
+                    <a href="./fullstack" class="btn btn-primary">Press</a>
                 </div>
                 </div>
             </div>
